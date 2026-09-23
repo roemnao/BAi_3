@@ -9,8 +9,9 @@ nav ul {
 }
 nav ul li {
     height: 55px;
-    padding: 0px 15px;
+    padding: 0px 30px;
     margin: 0;
+    color: white;
     border-right: 1px solid blue;
     display: flex;
     align-items: center;
@@ -20,8 +21,11 @@ nav ul li {
 nav ul li:last-child {
     border-right: none;
 }
+nav ul li:first-child {
+    padding-right: 10px;
+}
 nav input{
-    margin-right: 10px;
+    margin-right: 3px;
 }
 nav ul{
     height: 40px;

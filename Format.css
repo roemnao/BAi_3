@@ -6,8 +6,25 @@ nav ul {
     background-color: #e8949a;  
     gap: 15px;
 }
-nav ul p{
-    color: blue;
+nav li {
+    height: 55px;
+    padding: 0 15px;
+    border-right: 2px solid blue;
+    align-items: center;
+}
+
+nav li:last-child {
+    border-right: none;
+}
+nav input{
+    margin-right: 10px;
+}
+nav{
+    color: white;
+}
+nav ul li{
+    margin: 0;
+    border-right: 1px solid blue;
 }
 table {
   width: 100%;
@@ -18,20 +35,20 @@ td {
   vertical-align: top;
 }
 .block1 {
-  width: 220px;
-  padding-right: 20px;
+  width: 250px;
+  padding-right: 5px;
 }
 .block2 {
   width: auto;
-  padding: 0 20px;
+  padding: 0 5px;
 }
 .block3 {
   width: 300px;
-  padding-left: 20px;
+  padding-left: 5px;
 }
 body{
-    
-    width: 1700px;
+    border: 3px solid #e8949a;
+    width:1200px;
     margin: 0 auto;
 }
 h1{ 
@@ -40,31 +57,52 @@ h1{
     text-shadow: 17px 7px rgba(201, 126, 138, 0.6);
     
 }
-.block2 h2{
-    letter-spacing: 12px;
-    background-color: #e8949a;
+.block2 div{
+    width: 90%;
+}
+.block2 h2 {
+    width: 60%;
     padding-left: 30px;
+    margin: 0 auto;
+    letter-spacing: 10px;
+    background-color: #e8949a;
     color: #892c32;
 }
+.block2 span{
+    color: #d08c62;
+    font-weight: bold;
+}
+
+
 footer div{      
     text-align: center;
     color: white;
     background-color: #e8949a;
-    padding: 10px 0;
+    padding: 5px 0;
+    font-size: 1.5em;
+}
+footer p{
+    margin: 5px 0px 5px 0px;
 }
 .roundImg {
-  width: 250px;
+  width: 100%;
   border-radius: 50%;
   object-fit: cover;     
   box-shadow: 10px 15px 10px rgba(255, 105, 135, 0.5);
 }
 textarea{
+    margin-left: 5px;
     height: 50px;
     width: 100%;
+
 }
+textarea::placeholder{
+    color: black;
+}
+
 .block2 select{
-    width: 91%;
-    height:40px;
+    width: 93%;
+    height:50px;
 }
 .block2 input[type="text"]{
     width: 90%;
@@ -74,23 +112,31 @@ textarea{
     width: 90%;
     height:40px;
 }
-.block3{
-    width: 400px;
+.block2 input[type="button"]{
+    padding: 5px 10px 5px 10px;
 }
+.block2 form{
+    padding: 10px;
+}
+.block2 form *{
+    margin-top: 15px;
+}
+
 .block3 img{
-    width: 300px;
+    width: 80%;
     
 }
 .Options p{
   background-color: #e8949a;   
   color: white;
   margin: 5px;
-  padding: 0px 0px 0px 20px;
+  padding: 5px 0px 5px 20px;
   border-top-right-radius: 20px;
   border-bottom-right-radius: 20px;
   border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
 }
+
 td{
     vertical-align: top;
 }
@@ -99,8 +145,10 @@ u{
 }
 
 
-.block3{
+.block3 .blackbackground{
     background-color: black;
+    padding-bottom: 30px;
+    padding-left: 0px;
 }
 .block3 *{
     margin: 0;
@@ -110,6 +158,12 @@ u{
     padding-left: 40px;
 }
 a{
-    color:red !important;
+    color:red;
 }
-
+.blackbackground a{
+    color: rgb(221,170,204);
+}
+*{
+    font-family: "Times New Roman", Times, serif;
+;
+}

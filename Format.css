@@ -3,7 +3,6 @@ nav ul {
     align-items: center;
     justify-content: center;
     list-style: none;
-    background-color: #e8949a;  
     gap: 15px;
         align-items: center;
 
@@ -24,12 +23,17 @@ nav ul li:last-child {
 nav input{
     margin-right: 10px;
 }
-nav{
-    color: white;
+nav ul{
+    height: 40px;
+    background-color: #e8949a;  
 }
 nav ul li{
+    height: 80%;
     margin: 0;
     border-right: 1px solid blue;
+}
+nav img{
+    height: 90%;
 }
 table {
   width: 100%;
@@ -42,6 +46,7 @@ td {
 .block1 {
   width: 250px;
   padding-right: 5px;
+  padding-left: 0px;
 }
 .block2 {
   width: auto;
@@ -61,6 +66,9 @@ h1{
     text-align: center;
     text-shadow: 17px 7px rgba(201, 126, 138, 0.6);
     
+}
+.block1 p{
+    margin: 0;
 }
 .block2 div{
     width: 90%;
@@ -98,7 +106,7 @@ footer p{
 textarea{
     margin-left: 5px;
     height: 50px;
-    width: 100%;
+    width: 95%;
 
 }
 textarea::placeholder{
@@ -129,12 +137,16 @@ textarea::placeholder{
 
 .block3 img{
     width: 80%;
+
     
+}
+.block3 div{
+    margin-top: 40px;
 }
 .Options p{
   background-color: #e8949a;   
   color: white;
-  margin: 5px;
+  margin: 5px 5px 5px 0px;
   padding: 5px 0px 5px 20px;
   border-top-right-radius: 20px;
   border-bottom-right-radius: 20px;
@@ -170,5 +182,4 @@ a{
 }
 *{
     font-family: "Times New Roman", Times, serif;
-;
 }

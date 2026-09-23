@@ -5,15 +5,20 @@ nav ul {
     list-style: none;
     background-color: #e8949a;  
     gap: 15px;
+        align-items: center;
+
 }
-nav li {
+nav ul li {
     height: 55px;
-    padding: 0 15px;
-    border-right: 2px solid blue;
+    padding: 0px 15px;
+    margin: 0;
+    border-right: 1px solid blue;
+    display: flex;
     align-items: center;
+    justify-content: center;
 }
 
-nav li:last-child {
+nav ul li:last-child {
     border-right: none;
 }
 nav input{
